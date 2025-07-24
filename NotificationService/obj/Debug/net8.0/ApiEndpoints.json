@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "NotificationService.Controllers.NotificationController",
+    "Method": "GetInfo",
+    "RelativePath": "api/Notification/getinfo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NotificationService.Controllers.NotificationController",
+    "Method": "SendNotificationAsync",
+    "RelativePath": "api/Notification/sendmail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestMailNotificationModel",
+        "Type": "NotificationService.Models.RequestMailNotificationModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NotificationService.Controllers.NotificationController",
+    "Method": "SendSmsAsync",
+    "RelativePath": "api/Notification/sendsms",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NotificationService.Controllers.NotificationController",
+    "Method": "SendNotificationBySmsAsync",
+    "RelativePath": "api/Notification/sendsmstophone",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestSmsNotificationModel",
+        "Type": "NotificationService.Models.RequestSmsNotificationModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
